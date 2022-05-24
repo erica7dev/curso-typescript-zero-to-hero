@@ -1,18 +1,10 @@
-/* eslint-disable prettier/prettier */
-/**
- * arquivo: typeAnnotation.ts
- * descrição: arquivo responsável por ensinar conceitos básicos sobre 'Type Annotation'
- * data: 16/02/2021
- * author: Glaucia Lemos <@glaucia_lemos86>
- * doc referência: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
- * Transpilação do arquivo: <Windows> CTRL + SHIFT + B -> tsc: build/watch
- */
-
 export { };
 
 // ==> Variáveis [Type Annotations]
-let nome: string = 'Glaucia Lemos';
+let nome: string = 'Erica Monteiro';
+let idade: number[] = [21,12,56]
 console.log(nome);
+console.log(idade[2])
 
 // ==> Arrays [Type Annotations]
 let animais: string[] = ['Elefante', 'Cachorro', 'Gato', 'Panda', 'Girafa'];
